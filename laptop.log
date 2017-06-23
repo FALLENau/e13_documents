@@ -1,0 +1,285 @@
+
+Changing your shell to zsh ...
+Changing shell for Whitepaw.
+
+Installing Homebrew ...
+==> This script will install:
+/usr/local/bin/brew
+/usr/local/share/doc/homebrew
+/usr/local/share/man/man1/brew.1
+/usr/local/share/zsh/site-functions/_brew
+/usr/local/etc/bash_completion.d/brew
+/usr/local/Homebrew
+==> The following existing directories will be made group writable:
+/usr/local/bin
+/usr/local/share
+/usr/local/share/man
+/usr/local/share/man/man1
+==> The following existing directories will have their owner set to Whitepaw:
+/usr/local/bin
+/usr/local/share
+/usr/local/share/man
+/usr/local/share/man/man1
+==> The following existing directories will have their group set to admin:
+/usr/local/bin
+/usr/local/share
+/usr/local/share/man
+/usr/local/share/man/man1
+==> The following new directories will be created:
+/usr/local/Cellar
+/usr/local/Homebrew
+/usr/local/Frameworks
+/usr/local/etc
+/usr/local/include
+/usr/local/lib
+/usr/local/opt
+/usr/local/sbin
+/usr/local/share/zsh
+/usr/local/share/zsh/site-functions
+/usr/local/var
+==> /usr/bin/sudo /bin/chmod u+rwx /usr/local/bin /usr/local/share /usr/local/share/man /usr/local/share/man/man1
+==> /usr/bin/sudo /bin/chmod g+rwx /usr/local/bin /usr/local/share /usr/local/share/man /usr/local/share/man/man1
+==> /usr/bin/sudo /usr/sbin/chown Whitepaw /usr/local/bin /usr/local/share /usr/local/share/man /usr/local/share/man/man1
+==> /usr/bin/sudo /usr/bin/chgrp admin /usr/local/bin /usr/local/share /usr/local/share/man /usr/local/share/man/man1
+==> /usr/bin/sudo /bin/mkdir -p /usr/local/Cellar /usr/local/Homebrew /usr/local/Frameworks /usr/local/etc /usr/local/include /usr/local/lib /usr/local/opt /usr/local/sbin /usr/local/share/zsh /usr/local/share/zsh/site-functions /usr/local/var
+==> /usr/bin/sudo /bin/chmod g+rwx /usr/local/Cellar /usr/local/Homebrew /usr/local/Frameworks /usr/local/etc /usr/local/include /usr/local/lib /usr/local/opt /usr/local/sbin /usr/local/share/zsh /usr/local/share/zsh/site-functions /usr/local/var
+==> /usr/bin/sudo /bin/chmod 755 /usr/local/share/zsh /usr/local/share/zsh/site-functions
+==> /usr/bin/sudo /usr/sbin/chown Whitepaw /usr/local/Cellar /usr/local/Homebrew /usr/local/Frameworks /usr/local/etc /usr/local/include /usr/local/lib /usr/local/opt /usr/local/sbin /usr/local/share/zsh /usr/local/share/zsh/site-functions /usr/local/var
+==> /usr/bin/sudo /usr/bin/chgrp admin /usr/local/Cellar /usr/local/Homebrew /usr/local/Frameworks /usr/local/etc /usr/local/include /usr/local/lib /usr/local/opt /usr/local/sbin /usr/local/share/zsh /usr/local/share/zsh/site-functions /usr/local/var
+==> /usr/bin/sudo /bin/mkdir -p /Users/Whitepaw/Library/Caches/Homebrew
+==> /usr/bin/sudo /bin/chmod g+rwx /Users/Whitepaw/Library/Caches/Homebrew
+==> /usr/bin/sudo /usr/sbin/chown Whitepaw /Users/Whitepaw/Library/Caches/Homebrew
+==> /usr/bin/sudo /bin/mkdir -p /Library/Caches/Homebrew
+==> /usr/bin/sudo /bin/chmod g+rwx /Library/Caches/Homebrew
+==> /usr/bin/sudo /usr/sbin/chown Whitepaw /Library/Caches/Homebrew
+==> Searching online for the Command Line Tools
+==> /usr/bin/sudo /usr/bin/touch /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
+==> Installing Command Line Tools (macOS Sierra version 10.12) for Xcode-8.3
+==> /usr/bin/sudo /usr/sbin/softwareupdate -i Command\ Line\ Tools\ (macOS\ Sierra\ version\ 10.12)\ for\ Xcode-8.3
+Software Update Tool
+
+
+Downloading Command Line Tools (macOS Sierra version 10.12) for Xcode
+Downloaded Command Line Tools (macOS Sierra version 10.12) for Xcode
+Installing Command Line Tools (macOS Sierra version 10.12) for Xcode
+Done with Command Line Tools (macOS Sierra version 10.12) for Xcode
+Done.
+==> /usr/bin/sudo /bin/rm -f /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
+==> /usr/bin/sudo /usr/bin/xcode-select --switch /Library/Developer/CommandLineTools
+==> Downloading and installing Homebrew...
+From https://github.com/Homebrew/brew
+ * [new branch]      master     -> origin/master
+ * [new tag]         0.1        -> 0.1
+ * [new tag]         0.2        -> 0.2
+ * [new tag]         0.3        -> 0.3
+ * [new tag]         0.4        -> 0.4
+ * [new tag]         0.5        -> 0.5
+ * [new tag]         0.6        -> 0.6
+ * [new tag]         0.7        -> 0.7
+ * [new tag]         0.7.1      -> 0.7.1
+ * [new tag]         0.8        -> 0.8
+ * [new tag]         0.8.1      -> 0.8.1
+ * [new tag]         0.9        -> 0.9
+ * [new tag]         0.9.1      -> 0.9.1
+ * [new tag]         0.9.2      -> 0.9.2
+ * [new tag]         0.9.3      -> 0.9.3
+ * [new tag]         0.9.4      -> 0.9.4
+ * [new tag]         0.9.5      -> 0.9.5
+ * [new tag]         0.9.8      -> 0.9.8
+ * [new tag]         0.9.9      -> 0.9.9
+ * [new tag]         1.0.0      -> 1.0.0
+ * [new tag]         1.0.1      -> 1.0.1
+ * [new tag]         1.0.2      -> 1.0.2
+ * [new tag]         1.0.3      -> 1.0.3
+ * [new tag]         1.0.4      -> 1.0.4
+ * [new tag]         1.0.5      -> 1.0.5
+ * [new tag]         1.0.6      -> 1.0.6
+ * [new tag]         1.0.7      -> 1.0.7
+ * [new tag]         1.0.8      -> 1.0.8
+ * [new tag]         1.0.9      -> 1.0.9
+ * [new tag]         1.1.0      -> 1.1.0
+ * [new tag]         1.1.1      -> 1.1.1
+ * [new tag]         1.1.10     -> 1.1.10
+ * [new tag]         1.1.11     -> 1.1.11
+ * [new tag]         1.1.12     -> 1.1.12
+ * [new tag]         1.1.13     -> 1.1.13
+ * [new tag]         1.1.2      -> 1.1.2
+ * [new tag]         1.1.3      -> 1.1.3
+ * [new tag]         1.1.4      -> 1.1.4
+ * [new tag]         1.1.5      -> 1.1.5
+ * [new tag]         1.1.6      -> 1.1.6
+ * [new tag]         1.1.7      -> 1.1.7
+ * [new tag]         1.1.8      -> 1.1.8
+ * [new tag]         1.1.9      -> 1.1.9
+Checking out files:  40% (421/1033)   Checking out files:  41% (424/1033)   Checking out files:  42% (434/1033)   Checking out files:  43% (445/1033)   Checking out files:  44% (455/1033)   Checking out files:  45% (465/1033)   Checking out files:  46% (476/1033)   Checking out files:  47% (486/1033)   Checking out files:  48% (496/1033)   Checking out files:  49% (507/1033)   Checking out files:  50% (517/1033)   Checking out files:  51% (527/1033)   Checking out files:  52% (538/1033)   Checking out files:  53% (548/1033)   Checking out files:  54% (558/1033)   Checking out files:  55% (569/1033)   Checking out files:  56% (579/1033)   Checking out files:  57% (589/1033)   Checking out files:  58% (600/1033)   Checking out files:  59% (610/1033)   Checking out files:  60% (620/1033)   Checking out files:  61% (631/1033)   Checking out files:  62% (641/1033)   Checking out files:  63% (651/1033)   Checking out files:  64% (662/1033)   Checking out files:  65% (672/1033)   Checking out files:  66% (682/1033)   Checking out files:  67% (693/1033)   Checking out files:  68% (703/1033)   Checking out files:  69% (713/1033)   Checking out files:  70% (724/1033)   Checking out files:  71% (734/1033)   Checking out files:  72% (744/1033)   Checking out files:  73% (755/1033)   Checking out files:  74% (765/1033)   Checking out files:  75% (775/1033)   Checking out files:  76% (786/1033)   Checking out files:  77% (796/1033)   Checking out files:  78% (806/1033)   Checking out files:  79% (817/1033)   Checking out files:  80% (827/1033)   Checking out files:  81% (837/1033)   Checking out files:  82% (848/1033)   Checking out files:  83% (858/1033)   Checking out files:  84% (868/1033)   Checking out files:  85% (879/1033)   Checking out files:  86% (889/1033)   Checking out files:  87% (899/1033)   Checking out files:  88% (910/1033)   Checking out files:  89% (920/1033)   Checking out files:  90% (930/1033)   Checking out files:  91% (941/1033)   Checking out files:  92% (951/1033)   Checking out files:  93% (961/1033)   Checking out files:  94% (972/1033)   Checking out files:  95% (982/1033)   Checking out files:  96% (992/1033)   Checking out files:  97% (1003/1033)   Checking out files:  98% (1013/1033)   Checking out files:  99% (1023/1033)   Checking out files: 100% (1033/1033)   Checking out files: 100% (1033/1033), done.
+HEAD is now at 0c9047a Merge pull request #2562 from DomT4/you_shall_not_pass_go_get
+==> Tapping homebrew/core
+Cloning into '/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core'...
+Checking out files:  24% (1096/4410)   Checking out files:  25% (1103/4410)   Checking out files:  26% (1147/4410)   Checking out files:  27% (1191/4410)   Checking out files:  28% (1235/4410)   Checking out files:  29% (1279/4410)   Checking out files:  30% (1323/4410)   Checking out files:  31% (1368/4410)   Checking out files:  32% (1412/4410)   Checking out files:  33% (1456/4410)   Checking out files:  34% (1500/4410)   Checking out files:  35% (1544/4410)   Checking out files:  36% (1588/4410)   Checking out files:  37% (1632/4410)   Checking out files:  38% (1676/4410)   Checking out files:  39% (1720/4410)   Checking out files:  40% (1764/4410)   Checking out files:  41% (1809/4410)   Checking out files:  42% (1853/4410)   Checking out files:  43% (1897/4410)   Checking out files:  44% (1941/4410)   Checking out files:  45% (1985/4410)   Checking out files:  46% (2029/4410)   Checking out files:  47% (2073/4410)   Checking out files:  48% (2117/4410)   Checking out files:  48% (2136/4410)   Checking out files:  49% (2161/4410)   Checking out files:  50% (2205/4410)   Checking out files:  51% (2250/4410)   Checking out files:  52% (2294/4410)   Checking out files:  53% (2338/4410)   Checking out files:  54% (2382/4410)   Checking out files:  55% (2426/4410)   Checking out files:  56% (2470/4410)   Checking out files:  57% (2514/4410)   Checking out files:  58% (2558/4410)   Checking out files:  59% (2602/4410)   Checking out files:  60% (2646/4410)   Checking out files:  61% (2691/4410)   Checking out files:  62% (2735/4410)   Checking out files:  63% (2779/4410)   Checking out files:  64% (2823/4410)   Checking out files:  65% (2867/4410)   Checking out files:  66% (2911/4410)   Checking out files:  67% (2955/4410)   Checking out files:  68% (2999/4410)   Checking out files:  69% (3043/4410)   Checking out files:  70% (3087/4410)   Checking out files:  71% (3132/4410)   Checking out files:  72% (3176/4410)   Checking out files:  72% (3210/4410)   Checking out files:  73% (3220/4410)   Checking out files:  74% (3264/4410)   Checking out files:  75% (3308/4410)   Checking out files:  76% (3352/4410)   Checking out files:  77% (3396/4410)   Checking out files:  78% (3440/4410)   Checking out files:  79% (3484/4410)   Checking out files:  80% (3528/4410)   Checking out files:  81% (3573/4410)   Checking out files:  82% (3617/4410)   Checking out files:  83% (3661/4410)   Checking out files:  84% (3705/4410)   Checking out files:  85% (3749/4410)   Checking out files:  86% (3793/4410)   Checking out files:  87% (3837/4410)   Checking out files:  88% (3881/4410)   Checking out files:  89% (3925/4410)   Checking out files:  90% (3969/4410)   Checking out files:  91% (4014/4410)   Checking out files:  92% (4058/4410)   Checking out files:  93% (4102/4410)   Checking out files:  94% (4146/4410)   Checking out files:  95% (4190/4410)   Checking out files:  96% (4234/4410)   Checking out files:  97% (4278/4410)   Checking out files:  97% (4284/4410)   Checking out files:  98% (4322/4410)   Checking out files:  99% (4366/4410)   Checking out files: 100% (4410/4410)   Checking out files: 100% (4410/4410), done.
+Tapped 4198 formulae (4,434 files, 11MB)
+==> Cleaning up /Library/Caches/Homebrew...
+==> Migrating /Library/Caches/Homebrew to /Users/Whitepaw/Library/Caches/Homebrew...
+==> Deleting /Library/Caches/Homebrew...
+Already up-to-date.
+==> Installation successful!
+
+==> Homebrew has enabled anonymous aggregate user behaviour analytics.
+Read the analytics documentation (and how to opt-out) here:
+  http://docs.brew.sh/Analytics.html
+
+==> Next steps:
+- Run `brew help` to get started
+- Further documentation: 
+    http://docs.brew.sh
+
+Updating Homebrew formulae ...
+Already up-to-date.
+==> Tapping homebrew/bundle
+Cloning into '/usr/local/Homebrew/Library/Taps/homebrew/homebrew-bundle'...
+Tapped 0 formulae (127 files, 164.9KB)
+Tapping homebrew/services
+Tapping caskroom/fonts
+Installing git
+Installing zsh
+Installing node
+Installing rbenv
+Installing ruby-build
+Installing postgres
+Installing font-opendyslexic
+Homebrew Bundle complete! 9 Brewfile dependencies now installed.
+
+Installing GUI apps
+/Applications/Google Chrome.app/
+/Applications/Atom.app/
+==> Downloading https://download.sublimetext.com/Sublime%20Text%20Build%203126.dmg
+==> Verifying checksum for Cask sublime-text
+==> Moving App 'Sublime Text.app' to '/Applications/Sublime Text.app'.
+==> Linking Binary 'subl' to '/usr/local/bin/subl'.
+🍺  sublime-text was successfully installed!
+==> Downloading https://downloads.slack-edge.com/mac_releases/Slack-2.5.2-macOS.zip
+==> Verifying checksum for Cask slack
+==> Moving App 'Slack.app' to '/Applications/Slack.app'.
+🍺  slack was successfully installed!
+==> Downloading https://dl.google.com/dl/android/studio/ide-zips/2.3.1.0/android-studio-ide-162.3871768-mac.zip
+==> Verifying checksum for Cask android-studio
+==> Moving App 'Android Studio.app' to '/Applications/Android Studio.app'.
+🍺  android-studio was successfully installed!
+
+Installing Oh-My-Zsh ...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   146  100   146    0     0    302      0 --:--:-- --:--:-- --:--:--   302
+100  4018  100  4018    0     0   6897      0 --:--:-- --:--:-- --:--:--  6897
+Cloning Oh My Zsh...
+Cloning into '/Users/Whitepaw/.oh-my-zsh'...
+Looking for an existing zsh config...
+Found ~/.zshrc. Backing up to ~/.zshrc.pre-oh-my-zsh
+Using the Oh My Zsh template file and adding it to ~/.zshrc
+Time to change your default shell to zsh!
+Changing shell for Whitepaw.
+chsh: Credentials could not be verified, username or password is invalid.  Credentials could not be verified, username or password is invalid.
+
+Configuring Ruby ...
+Downloading ruby-2.4.1.tar.bz2...
+-> https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.1.tar.bz2
+Installing ruby-2.4.1...
+ruby-build: use readline from homebrew
+Installed ruby-2.4.1 to /Users/Whitepaw/.rbenv/versions/2.4.1
+
+Updating rubygems-update
+Successfully installed rubygems-update-2.6.12
+Parsing documentation for rubygems-update-2.6.12
+Installing ri documentation for rubygems-update-2.6.12
+Installing darkfish documentation for rubygems-update-2.6.12
+Done installing documentation for rubygems-update after 48 seconds
+Parsing documentation for rubygems-update-2.6.12
+Done installing documentation for rubygems-update after 0 seconds
+Installing RubyGems 2.6.12
+RubyGems 2.6.12 installed
+Parsing documentation for rubygems-2.6.12
+Installing ri documentation for rubygems-2.6.12
+
+=== 2.6.12 / 2017-04-30
+
+Bug fixes:
+
+* Fix test_self_find_files_with_gemfile to sort expected files. Pull
+  request #1880 by Kazuaki Matsuo.
+* Fix issue for MinGW / MSYS2 builds and testing. Pull request #1879 by
+  MSP-Greg.
+* Fix gem open to open highest version number rather than lowest. Pull
+  request #1877 by Tim Pope.
+* Add a test for requiring a default spec as installed by the ruby
+  installer. Pull request #1899 by Samuel Giddins.
+* Fix broken --exact parameter to gem command. Pull request #1873 by Jason
+  Frey.
+* [Installer] Generate backwards-compatible binstubs. Pull request #1904
+  by Samuel Giddins.
+* Fix pre-existing source recognition on add action. Pull request #1883 by
+  Jonathan Claudius.
+* Prevent negative IDs in output of #inspect. Pull request #1908 by Vít
+  Ondruch.
+* Allow Gem.finish_resolve to respect already-activated specs. Pull
+  request #1910 by Samuel Giddins.
+
+=== 2.6.11 / 2017-03-16
+
+Bug fixes:
+
+* Fixed broken tests on ruby-head. Pull request #1841 by
+  SHIBATA Hiroshi.
+* Update vendored Molinillo to 0.5.7. Pull request #1859 by Samuel
+  Giddins.
+* Avoid activating Ruby 2.5 default gems when possible. Pull request #1843
+  by Samuel Giddins.
+* Use improved resolver sorting algorithm. Pull request #1856 by
+  Samuel Giddins.
+
+
+------------------------------------------------------------------------------
+
+RubyGems installed the following executables:
+	/Users/Whitepaw/.rbenv/versions/2.4.1/bin/gem
+
+Ruby Interactive (ri) documentation was installed. ri is kind of like man 
+pages for ruby libraries. You may access it like this:
+  ri Classname
+  ri Classname.class_method
+  ri Classname#instance_method
+If you do not wish to install this documentation in the future, use the
+--no-document flag, or set it as the default in your ~/.gemrc file. See
+'gem help env' for details.
+
+RubyGems system software updated
+Successfully installed bundler-1.14.6
+Parsing documentation for bundler-1.14.6
+Installing ri documentation for bundler-1.14.6
+Done installing documentation for bundler after 9 seconds
+1 gem installed
+
+Skipping rdoc generation when we install a gem
+
+Setting sublime as default text editor ...
+
+Globally ignoring .DS_Store files
+
+Creating Postgres database under current user name
+
+Creating 'subl' command to open Sublime Text from Terminal ...
+
+Customizing Sublime Text
+
+Installing Package Control
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 23  268k   23 65240    0     0  64201      0  0:00:04  0:00:01  0:00:03 64212 95  268k   95  255k    0     0   127k      0  0:00:02  0:00:02 --:--:--  127k100  268k  100  268k    0     0   133k      0  0:00:02  0:00:02 --:--:--  133k
+
+Adding keyboard shortcuts
+
+Adding default package info
+
+Adding sensible default preferences
+
+
+
+Laptop completed successfully! Let's celebrate! 🎉
