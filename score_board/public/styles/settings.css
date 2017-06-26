@@ -1,0 +1,14 @@
+#settings_container{
+  margin-top: 30px;
+}
+
+#settings_container section{
+  width: 400px;
+  height: 400px;
+  margin: auto;
+}
+
+#settings_container input{
+  display: block;
+  margin: 5px 0 5px 0;
+}

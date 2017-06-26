@@ -1,0 +1,15 @@
+<div class="board_container">
+  <div class="inner_board upper_board">
+      <p><%= @team.score %></p>
+  </div>
+  <form action="/team/presenter/<%= @team.id %>" method="post">
+    <input class="minus_score_button" type="submit" name="edit_score" value="-">
+    <input class="plus_score_button" type="submit" name="edit_score" value="+">
+  </form>
+  <% team_colour = @presenter_colours.get_team_colour()%>
+  <div
+    class="inner_board lower_board"
+    style="background: radial-gradient(300px circle at 50% 50%, <%= team_colour %>, black);">
+    <span><%= @team.name %></span>
+  </div>
+</div>

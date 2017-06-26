@@ -1,0 +1,19 @@
+footer{
+  display: fixed;
+  bottom: 0;
+  height: 30px;
+  width: 100%;
+  background: black;
+}
+
+footer ul{
+  padding: 0;
+  margin: 5px 20px 0 0;
+  color: white;
+  list-style: none;
+}
+
+footer li{
+  display: inline-block;
+  margin-left: 20px;
+}

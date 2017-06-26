@@ -1,0 +1,43 @@
+
+#team_container{
+  width: 951px;
+  height: 700px;
+  margin: auto;
+  padding: 15px;
+}
+
+#team_container li{
+  width: 210px;
+  float: left;
+  margin-right: 40px;
+  border: 1px solid black;
+  padding: 30px;
+}
+
+#team_container p{
+  font-size: 17px;
+}
+
+#team_container ol{
+  padding-left: 15px;
+  list-style: none;
+}
+
+#team_container label{
+  font-size: 17px;
+}
+
+#team_container input{
+  display: block;
+  margin: 10px 0 10px 0;
+  font-size: 15px;
+}
+
+#team_container input[type="text"]{
+  width: 90%;
+}
+
+#team_container input[type=number]{
+  width: 40px;
+  padding-left: 15px;
+}

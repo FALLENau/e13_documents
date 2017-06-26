@@ -1,0 +1,85 @@
+body{
+  background-image: url(backgrounds/blue_circle_lights.jpg);
+  /*background-image: url(backgrounds/Creased-White-Paper.jpg);*/
+  /*background-image: url(backgrounds/codeclan_logo_blur.png);*/
+  /*background-image: url(backgrounds/codeclan-logo_blur.png);*/
+  background-image: no-repeat;
+  background-size: cover;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+}
+
+.board_container{
+  height: 295px;
+  width: 200px;
+  margin: 20px;
+}
+
+.inner_board{
+  width: inherit;
+  text-align: center;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.upper_board{
+  height: 100px;
+  font-size: 70px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-top: 1px solid black;
+  background-color: rgba(255,255,255,0.5);
+}
+
+.upper_board p{
+  margin: 25px 0 0 0;
+}
+
+.board_container form{
+  width: 100%;
+  height: 35px;
+  background-color: rgba(255,255,255,0.5);
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+input[type=submit]{
+  border: none;
+  width: 30px;
+  height: 30px;
+  padding-bottom: 33px;
+  font-size: 25px;
+  font-weight: bold;
+  background: none;
+  border-radius: 10px;
+}
+
+input[type=submit]:hover{
+  background-color: white;
+}
+
+.plus_score_button{
+  float: right;
+}
+
+.lower_board{
+  height: 160px;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 140px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  background: radial-gradient(300px circle at 50% 50%, #FF3232, black);
+  color: white;
+  border-bottom: 1px solid black;
+}
+
+.lower_board span{
+  padding: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}

@@ -1,0 +1,54 @@
+
+#team_container{
+  width: 1000px;
+  margin: auto;
+  padding: 15px;
+}
+
+#team_container li{
+  width: 260px;
+  height: 240px;
+  float: left;
+  margin: 2px 2px 2px 2px;
+  padding: 30px;
+}
+
+.team_containers{
+  border: 2px solid black;
+}
+
+#new_team_container{
+  border: 2px solid green;
+}
+
+#team_container p{
+  font-size: 17px;
+}
+
+#team_container ol{
+  padding-left: 15px;
+  list-style: none;
+}
+
+.team_containers input{
+  display: block;
+  margin: 10px 0 10px 0;
+}
+
+#team_container input[type="text"]{
+  width: 90%;
+}
+
+#team_container input[type=number]{
+  width: 60px;
+  padding-left: 15px;
+}
+
+.team_delete_form input{
+  display: inline-block;
+}
+
+#control_panel_white_space{
+  clear: both;
+  height: 60px;
+}

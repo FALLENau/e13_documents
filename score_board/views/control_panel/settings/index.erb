@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Control Panel</title>
+    <link rel="stylesheet" href="/styles/master.css">
+    <link rel="stylesheet" href="/styles/settings.css">
+    <link rel="stylesheet" href="/styles/footer.css">
+  </head>
+  <body>
+
+    <div id="settings_container">
+      <section>
+        <form action="/panel/settings" method="post">
+          <p>Current point change value: <%= @point_change_value %></p>
+          <label>On press of '+' or '-' change points by:</label>
+          <input type="number" name="point_edit_value" value="">
+          <input type="submit" name="" value="Submit">
+        </form>
+      </section>
+    </div>
+
+    <%= erb(:footer) %>
+
+  </body>
+</html>
